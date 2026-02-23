@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Payment Admin Panel</title>
+<link rel="stylesheet" href="payment.css">
+</head>
+<body>
+
+<div class="container">
+<h2>💳 Online Payment Simulation Dashboard</h2>
+
+<!-- Add User -->
+<h3>Add User</h3>
+<input id="newName" placeholder="User Name">
+<input id="newBalance" type="number" placeholder="Initial Balance">
+<button onclick="addUser()">Add User</button>
+
+<!-- Delete User -->
+<h3>Delete User</h3>
+<input id="deleteName" placeholder="User Name">
+<button onclick="deleteUser()">Delete</button>
+
+<!-- Deposit -->
+<h3>Add Amount (Deposit)</h3>
+<input id="depName" placeholder="User Name">
+<input id="depAmount" type="number" placeholder="Amount">
+<button onclick="deposit()">Add Money</button>
+
+<!-- Withdraw -->
+<h3>Withdraw Amount</h3>
+<input id="withName" placeholder="User Name">
+<input id="withAmount" type="number" placeholder="Amount">
+<button onclick="withdraw()">Withdraw</button>
+
+<!-- Transfer -->
+<h3>Transfer Payment</h3>
+<input id="fromUser" placeholder="From User">
+<input id="toUser" placeholder="To Merchant">
+<input id="payAmount" type="number" placeholder="Amount">
+<button onclick="pay()">Transfer</button>
+
+<p id="msg"></p>
+
+<!-- Excel Format Table -->
+<h3>Account Table</h3>
+<button onclick="loadBalance()">Refresh Balance</button>
+
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Balance</th>
+</tr>
+</thead>
+<tbody id="tableData"></tbody>
+</table>
+
+</div>
+
+<script src="payment.js"></script>
+</body>
+</html>

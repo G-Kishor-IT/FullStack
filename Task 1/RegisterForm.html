@@ -1,0 +1,59 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Register Form</h1>
+
+        <table>
+            <tr>
+                <td>Student Name :</td>
+                <td><input type="text" id="name" placeholder="Student Name" required></td>
+            </tr>
+
+            <tr>
+                <td>Date of Birth :</td>
+                <td><input type="date" id="dob" required></td>
+            </tr>
+
+            <tr>
+                <td>Email :</td>
+                <td><input type="email" id="email" placeholder="Email Address" required></td>
+            </tr>
+
+            <tr>
+                <td>Department :</td>
+                <td>
+                    <select id="dept" required>
+                        <option value="">--Select--</option>
+                        <option value="IT">Information Technology</option>
+                        <option value="CSE">CSE</option>
+                        <option value="AIML">AIML</option>
+                        <option value="AIDS">AIDS</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Phone No :</td>
+                <td><input type="tel" id="contact" placeholder="Phone Number" required></td>
+            </tr>
+
+            <tr>
+                <td>Password :</td>
+                <td><input type="password" id="pass" placeholder="Password" required></td>
+            </tr>
+        </table>
+
+        <p id="message"></p>
+        <button onclick="register()">Submit</button>
+    </div>
+
+    <script src="register.js"></script>
+</body>
+</html>

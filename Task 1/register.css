@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: white;
+}
+#title{
+    text-align: center;
+    font-size: 40px;
+    padding: 5px;
+    margin: 25px;
+    background:linear-gradient(to right, rgb(8, 8, 215),rgb(1, 173, 241));
+    color: rgb(0, 0, 0);
+}
+div{
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 25px;
+    width: 500px;
+    height: 600px;
+    margin-left: 500px;
+    margin-top: 75px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 10px 0px rgb(18, 18, 18);
+    background:linear-gradient(to right, rgb(8, 8, 215),rgb(1, 173, 241));
+}
+div:hover{
+    box-shadow: 0px 7px 15px 0px rgb(18, 18, 18);
+    cursor: pointer;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgb(117, 116, 116);
+}
+select{
+    width: 300px;
+    height: 30px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: white;
+}
+option{
+    background-color: white;
+}
+
+table{
+    margin-left: 43px;
+   background:linear-gradient(to right, rgb(8, 8, 215),rgb(1, 173, 241));
+}
+td{
+    padding: 1px;
+    background-color: rgb(8, 8, 215)
+}
+button{
+    margin-top: 50px;
+    margin-left: 120px;
+    width: 250px;
+    height: 30px;
+    border-radius: 5%;
+    background-color: white;
+}
+button:hover{
+    background:linear-gradient(to right, green, rgb(30, 226, 30));
+    color: white;
+    cursor:pointer;
+    width: 260px;
+    height: 35px;
+    margin-right: 10px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Management</title>
+    <link rel="stylesheet" href="orders.css">
+</head>
+<body>
+
+<h2>Customer Order History</h2>
+
+<button onclick="loadOrders()">Load Orders</button>
+<button onclick="highestOrder()">Highest Order</button>
+<button onclick="mostActiveCustomer()">Most Active Customer</button>
+
+<h3 id="result"></h3>
+
+<table id="orderTable">
+    <thead>
+        <tr>
+            <th>Customer</th>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Total Price</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<script src="orders.js"></script>
+</body>
+</html>

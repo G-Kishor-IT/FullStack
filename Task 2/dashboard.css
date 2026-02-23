@@ -1,0 +1,108 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Page Background */
+body {
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    padding: 30px;
+    color: #fff;
+}
+
+/* Title */
+h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Control Panel */
+select, button {
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: none;
+    font-size: 14px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Dropdown */
+select {
+    background: white;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Buttons */
+button {
+    background: #00c6ff;
+    color: white;
+    font-weight: 500;
+}
+
+button:hover {
+    background: #0072ff;
+    transform: scale(1.05);
+}
+
+/* Count Display */
+#countResult {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Table Header */
+th {
+    background: #0072ff;
+    color: white;
+    padding: 12px;
+    font-size: 15px;
+}
+
+/* Table Body */
+td {
+    padding: 10px;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+}
+
+/* Row Hover Effect */
+tbody tr:hover {
+    background: #f2f2f2;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* Center UI Controls */
+select, button {
+    display: inline-block;
+}
+
+/* Responsive Table */
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+}

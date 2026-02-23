@@ -1,0 +1,42 @@
+body {
+    background:#0f172a;
+    font-family: Arial;
+    color:white;
+}
+
+.box {
+    width:700px;
+    margin:auto;
+    background:#111827;
+    padding:20px;
+    border-radius:12px;
+}
+
+input, button {
+    padding:8px;
+    margin:5px;
+}
+
+button {
+    background:#22c55e;
+    border:none;
+    color:white;
+}
+
+table {
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    color:black;
+}
+
+th, td {
+    padding:8px;
+    border:1px solid #ccc;
+    text-align:center;
+}
+
+th {
+    background:#22c55e;
+    color:white;
+}
